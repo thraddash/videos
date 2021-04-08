@@ -4,13 +4,13 @@ import youtube from '../apis/youtube';
 
 class App extends React.Component {
 // add callback method to class App when user submits SearchBar form
-    onTermSubmit = (term) => {
-        // pre configure instance of axios 
-        youtube.get('/search', {
+    onTermSubmit = async term => {
+        const response = await youtube.get('/search', {
             params: {
                 q: term
             }
         });
+        console.log(response);
     };
 
     render() {
