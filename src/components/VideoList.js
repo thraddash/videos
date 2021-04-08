@@ -6,7 +6,7 @@ const VideoList = ({ videos }) => {
         return <VideoItem video={video} />
     });
 
-    return <div>VideoList {renderedList}</div>
+    return <div>{renderedList}</div>
 };
 
 export default VideoList;
