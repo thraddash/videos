@@ -1,13 +1,13 @@
 import React from 'react';
+import VideoItem from './VideoItem';
 
-// pass this.state.videos from App.js down to Videolist props
-// props.videos 
+const VideoList = ({ videos }) => {  
+    // Todo pass video prop to VideoItem  
+    const renderedList = videos.map((video) => {
+        return <VideoItem />
+    });
 
-// destructure using ES2015 syntax, take the videos property out of the props object
-// by converting const VideoList = (props) to  ({ videos })
-const VideoList = ({ videos }) => {
-    
-    return <div>VideoList {videos.length}</div>
+    return <div>VideoList {renderedList}</div>
 };
 
 export default VideoList;
