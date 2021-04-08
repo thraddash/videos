@@ -1,8 +1,7 @@
 import axios from 'axios';
-require('dotenv').config({ path: './../../.env' });
+require('dotenv').config({ path: '../../../.env' });
 
-const YOUTUBE_KEY = process.env.REACT_YOUTUBE_KEY;
-
+const YOUTUBE_KEY = process.env.REACT_APP_YOUTUBE_KEY;
 // create youtube api key developers.google.com/youtube
 // google youtube search v3
 
