@@ -25,8 +25,14 @@
 </details>
 
 ## About the Project
-Youtube browser app in Nodejs. User can enter query in search bar, 5 video listing will be display on right hand side along with title.
-A video player will be display on left hand along with title and brief description.
+Create a Youtube browser app in Nodejs.  
+User can use search bar to query videos from youtube.  
+5 video listing will be displayed on right hand side of the webpage.  
+Clicking each video items on the right hand side wil update the video player on the left along with a title and brief description.
+
+### Modules Used
+axios  0.21.1  (promise-base HTTP client)
+dotenv 8.2.0   (Youtube api key stored in .env file)
 
 ### Git checkout SHA for build steps
 Create Class App  
