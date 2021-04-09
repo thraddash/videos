@@ -19,7 +19,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#execution">Execution</a></li>
+    <li><a href="#Starting the App">Starting the App</a></li>
 
   </ol>
 </details>
@@ -29,10 +29,10 @@ Youtube browser app in Nodejs. User can enter query in search bar, 5 video listi
 A video player will be display on left hand along with title and brief description.
 
 ### Git checkout SHA for build steps
-Create Class App
-Create SearchBar component, import to App.js
-Add semantic.min.css stylesheet in public/index.html, search for semantic ui cdn
-Mockup application with ui segment, ui form, ui container in div tags
+Create Class App  
+Create SearchBar component, import to App.js  
+Add semantic.min.css stylesheet in public/index.html, search for semantic ui cdn  
+Mockup application with ui segment, ui form, ui container in div tags  
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -42,11 +42,16 @@ To get a local copy up and running follow these simple steps.
 1. node v14.15.5 installed
 2. npm 6.14.11 installed
 3. create youtube api key https://console.cloud.google.com/apis/api/youtube  
+```
+Application restriction:</b> HTTP referrers (website)  
+Website restriction:</b> localhost:3000  
+```
+4. create .env file  
+```
+REACT_APP_YOUTUBE_KEY = YOUR_YOUTUBE_API_KEY
+```
   
-  <b>Application restriction:</b> HTTP referrers (website)  
-  <b>Website restriction:</b> localhost:3000  
-  
-### Execution
+### Starting the App
 
 1. Clone the repo
    ```sh
