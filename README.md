@@ -31,8 +31,8 @@ User can use search bar to query videos from youtube.
 Clicking each video items on the right hand side wil update the video player on the left along with a title and brief description.
 
 ### Modules Used
-axios  0.21.1  (promise-base HTTP client)
-dotenv 8.2.0   (Youtube api key stored in .env file)
+axios  0.21.1  (promise-base HTTP client)  
+dotenv 8.2.0   (Youtube api key stored in .env file)  
 
 ### Git checkout SHA for build steps
 Create Class App  
