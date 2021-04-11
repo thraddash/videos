@@ -78,6 +78,6 @@ REACT_APP_YOUTUBE_KEY = YOUR_YOUTUBE_API_KEY
 [node-url]: https://nodejs.org/
 [npm-shield]: https://img.shields.io/badge/npm-v6.14.11-orange
 [npm-url]: https://www.npmjs.com/package/npm-install
-[commits-shield]: https://img.shields.io/badge/commits-38-green.svg
+[commits-shield]: https://img.shields.io/badge/commits-47-green.svg
 [commits-url]: https://img.shields.io/github/commit-activity/y/thraddash/videos
 [product-screenshot]: /src/images/mockup.png
