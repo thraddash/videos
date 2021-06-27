@@ -3,6 +3,7 @@
 [![GitHub commit activity][commits-shield]][commits-url]
 
 # Youtube Browser App (using Class components)
+#### Demo: https://priceless-newton-ebdb69.netlify.app/
 <img src="https://github.com/thraddash/videos/blob/master/src/images/mockup.png" width="700" title="Mockup">
 
 <!-- TABLE OF CONTENTS -->
@@ -78,6 +79,6 @@ REACT_APP_YOUTUBE_KEY = YOUR_YOUTUBE_API_KEY
 [node-url]: https://nodejs.org/
 [npm-shield]: https://img.shields.io/badge/npm-v6.14.11-orange
 [npm-url]: https://www.npmjs.com/package/npm-install
-[commits-shield]: https://img.shields.io/badge/commits-48-green.svg
+[commits-shield]: https://img.shields.io/badge/commits-49-green.svg
 [commits-url]: https://img.shields.io/github/commit-activity/y/thraddash/videos
 [product-screenshot]: /src/images/mockup.png
